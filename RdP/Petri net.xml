@@ -3,7 +3,7 @@
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
 <place id="Active">
 <graphics>
-<position x="570.0" y="285.0"/>
+<position x="735.0" y="270.0"/>
 </graphics>
 <name>
 <value>Active</value>
@@ -23,7 +23,7 @@
 </place>
 <place id="Active_2">
 <graphics>
-<position x="645.0" y="657.2727272727273"/>
+<position x="675.0" y="765.0"/>
 </graphics>
 <name>
 <value>Active_2</value>
@@ -43,7 +43,7 @@
 </place>
 <place id="CPU_buffer1">
 <graphics>
-<position x="420.0" y="315.0"/>
+<position x="585.0" y="300.0"/>
 </graphics>
 <name>
 <value>CPU_buffer1</value>
@@ -63,7 +63,7 @@
 </place>
 <place id="CPU_buffer2">
 <graphics>
-<position x="420.0" y="405.0"/>
+<position x="450.0" y="510.0"/>
 </graphics>
 <name>
 <value>CPU_buffer2</value>
@@ -83,7 +83,7 @@
 </place>
 <place id="CPU_ON">
 <graphics>
-<position x="465.0" y="195.0"/>
+<position x="630.0" y="180.0"/>
 </graphics>
 <name>
 <value>CPU_ON</value>
@@ -103,7 +103,7 @@
 </place>
 <place id="CPU_ON_2">
 <graphics>
-<position x="540.0" y="522.2727272727273"/>
+<position x="570.0" y="630.0"/>
 </graphics>
 <name>
 <value>CPU_ON_2</value>
@@ -123,7 +123,7 @@
 </place>
 <place id="Idle">
 <graphics>
-<position x="570.0" y="360.0"/>
+<position x="735.0" y="345.0"/>
 </graphics>
 <name>
 <value>Idle</value>
@@ -143,7 +143,7 @@
 </place>
 <place id="Idle_2">
 <graphics>
-<position x="600.0" y="747.2727272727273"/>
+<position x="630.0" y="855.0"/>
 </graphics>
 <name>
 <value>Idle_2</value>
@@ -163,7 +163,7 @@
 </place>
 <place id="P0">
 <graphics>
-<position x="105.0" y="315.0"/>
+<position x="105.0" y="300.0"/>
 </graphics>
 <name>
 <value>P0</value>
@@ -183,7 +183,7 @@
 </place>
 <place id="P1">
 <graphics>
-<position x="240.0" y="315.0"/>
+<position x="240.0" y="300.0"/>
 </graphics>
 <name>
 <value>P1</value>
@@ -203,7 +203,7 @@
 </place>
 <place id="P13">
 <graphics>
-<position x="285.0" y="552.2727272727273"/>
+<position x="315.0" y="660.0"/>
 </graphics>
 <name>
 <value>P13</value>
@@ -221,9 +221,49 @@
 <value>0</value>
 </capacity>
 </place>
+<place id="P16">
+<graphics>
+<position x="435.0" y="300.0"/>
+</graphics>
+<name>
+<value>P16</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="P17">
+<graphics>
+<position x="495.0" y="375.0"/>
+</graphics>
+<name>
+<value>P17</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
 <place id="P6">
 <graphics>
-<position x="300.0" y="225.0"/>
+<position x="300.0" y="210.0"/>
 </graphics>
 <name>
 <value>P6</value>
@@ -243,7 +283,7 @@
 </place>
 <place id="Power_up">
 <graphics>
-<position x="272.7272727272727" y="107.72727272727272"/>
+<position x="270.0" y="90.0"/>
 </graphics>
 <name>
 <value>Power_up</value>
@@ -263,7 +303,7 @@
 </place>
 <place id="Power_up_2">
 <graphics>
-<position x="241.36363636363635" y="450.0"/>
+<position x="270.0" y="555.0"/>
 </graphics>
 <name>
 <value>Power_up_2</value>
@@ -283,7 +323,7 @@
 </place>
 <place id="Stand_by">
 <graphics>
-<position x="180.0" y="150.0"/>
+<position x="180.0" y="135.0"/>
 </graphics>
 <name>
 <value>Stand_by</value>
@@ -303,7 +343,7 @@
 </place>
 <place id="Stand_by_2">
 <graphics>
-<position x="119.99999999999999" y="582.2727272727273"/>
+<position x="150.0" y="690.0"/>
 </graphics>
 <name>
 <value>Stand_by_2</value>
@@ -323,7 +363,7 @@
 </place>
 <transition id="Arrival_rate">
 <graphics>
-<position x="195.0" y="315.0"/>
+<position x="195.0" y="300.0"/>
 </graphics>
 <name>
 <value>Arrival_rate</value>
@@ -349,7 +389,7 @@
 </transition>
 <transition id="Power_down_threshold">
 <graphics>
-<position x="600.0" y="225.0"/>
+<position x="765.0" y="210.0"/>
 </graphics>
 <name>
 <value>Power_down_threshold</value>
@@ -375,7 +415,7 @@
 </transition>
 <transition id="Power_down_threshold_2">
 <graphics>
-<position x="675.0" y="582.2727272727273"/>
+<position x="705.0" y="690.0"/>
 </graphics>
 <name>
 <value>Power_down_threshold_2</value>
@@ -401,7 +441,7 @@
 </transition>
 <transition id="Power_up_delay">
 <graphics>
-<position x="360.0" y="135.0"/>
+<position x="360.0" y="120.0"/>
 </graphics>
 <name>
 <value>Power_up_delay</value>
@@ -427,7 +467,7 @@
 </transition>
 <transition id="Power_up_delay_2">
 <graphics>
-<position x="390.0" y="477.27272727272725"/>
+<position x="420.0" y="585.0"/>
 </graphics>
 <name>
 <value>Power_up_delay_2</value>
@@ -453,7 +493,7 @@
 </transition>
 <transition id="Service_Rate">
 <graphics>
-<position x="630.0" y="315.0"/>
+<position x="795.0" y="300.0"/>
 </graphics>
 <name>
 <value>Service_Rate</value>
@@ -479,7 +519,7 @@
 </transition>
 <transition id="Service_rate_2">
 <graphics>
-<position x="660.0" y="702.2727272727275"/>
+<position x="690.0" y="810.0"/>
 </graphics>
 <name>
 <value>Service_rate_2</value>
@@ -505,7 +545,7 @@
 </transition>
 <transition id="T1">
 <graphics>
-<position x="330.0" y="315.0"/>
+<position x="330.0" y="300.0"/>
 </graphics>
 <name>
 <value>T1</value>
@@ -531,7 +571,7 @@
 </transition>
 <transition id="T12">
 <graphics>
-<position x="390.0" y="537.2727272727273"/>
+<position x="420.0" y="645.0"/>
 </graphics>
 <name>
 <value>T12</value>
@@ -557,7 +597,7 @@
 </transition>
 <transition id="T13">
 <graphics>
-<position x="210.0" y="552.2727272727273"/>
+<position x="240.0" y="660.0"/>
 </graphics>
 <name>
 <value>T13</value>
@@ -581,9 +621,61 @@
 <value>1</value>
 </priority>
 </transition>
+<transition id="T14">
+<graphics>
+<position x="435.0" y="390.0"/>
+</graphics>
+<name>
+<value>T14</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>270</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T15">
+<graphics>
+<position x="510.0" y="300.0"/>
+</graphics>
+<name>
+<value>T15</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
 <transition id="T2">
 <graphics>
-<position x="510.0" y="315.0"/>
+<position x="675.0" y="300.0"/>
 </graphics>
 <name>
 <value>T2</value>
@@ -609,7 +701,7 @@
 </transition>
 <transition id="T5">
 <graphics>
-<position x="345.0" y="210.0"/>
+<position x="345.0" y="195.0"/>
 </graphics>
 <name>
 <value>T5</value>
@@ -635,7 +727,7 @@
 </transition>
 <transition id="T6">
 <graphics>
-<position x="225.0" y="195.0"/>
+<position x="225.0" y="180.0"/>
 </graphics>
 <name>
 <value>T6</value>
@@ -661,7 +753,7 @@
 </transition>
 <transition id="T8">
 <graphics>
-<position x="525.0" y="642.2727272727273"/>
+<position x="555.0" y="750.0"/>
 </graphics>
 <name>
 <value>T8</value>
@@ -694,8 +786,8 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="662" y="655" curvePoint="false"/>
-<arcpath id="001" x="686" y="609" curvePoint="false"/>
+<arcpath id="000" x="693" y="763" curvePoint="false"/>
+<arcpath id="001" x="717" y="717" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="Active_2 to Service_rate_2" source="Active_2" target="Service_rate_2">
@@ -707,8 +799,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="663" y="681" curvePoint="false"/>
-<arcpath id="001" x="671" y="699" curvePoint="false"/>
+<arcpath id="000" x="693" y="790" curvePoint="false"/>
+<arcpath id="001" x="702" y="807" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Active to Power_down_threshold" source="Active" target="Power_down_threshold">
@@ -720,8 +812,8 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="590" y="283" curvePoint="false"/>
-<arcpath id="001" x="611" y="251" curvePoint="false"/>
+<arcpath id="000" x="755" y="269" curvePoint="false"/>
+<arcpath id="001" x="777" y="237" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="Active to Service_Rate" source="Active" target="Service_Rate">
@@ -733,8 +825,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="594" y="302" curvePoint="false"/>
-<arcpath id="001" x="636" y="321" curvePoint="false"/>
+<arcpath id="000" x="760" y="288" curvePoint="false"/>
+<arcpath id="001" x="802" y="307" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Arrival_rate to P1" source="Arrival_rate" target="P1">
@@ -746,8 +838,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="210" y="326" curvePoint="false"/>
-<arcpath id="001" x="236" y="326" curvePoint="false"/>
+<arcpath id="000" x="211" y="312" curvePoint="false"/>
+<arcpath id="001" x="237" y="312" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_buffer2 to Power_down_threshold_2" source="CPU_buffer2" target="Power_down_threshold_2">
@@ -759,9 +851,9 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="444" y="423" curvePoint="false"/>
-<arcpath id="001" x="624" y="529" curvePoint="false"/>
-<arcpath id="002" x="680" y="594" curvePoint="false"/>
+<arcpath id="000" x="474" y="529" curvePoint="false"/>
+<arcpath id="001" x="656" y="636" curvePoint="false"/>
+<arcpath id="002" x="712" y="697" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="CPU_buffer2 to T8" source="CPU_buffer2" target="T8">
@@ -773,9 +865,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="434" y="430" curvePoint="false"/>
-<arcpath id="001" x="474" y="624" curvePoint="false"/>
-<arcpath id="002" x="530" y="654" curvePoint="false"/>
+<arcpath id="000" x="465" y="536" curvePoint="false"/>
+<arcpath id="001" x="506" y="731" curvePoint="false"/>
+<arcpath id="002" x="561" y="762" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_buffer to Power_down_threshold" source="CPU_buffer1" target="Power_down_threshold">
@@ -787,11 +879,11 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="440" y="338" curvePoint="false"/>
-<arcpath id="001" x="552" y="475" curvePoint="false"/>
-<arcpath id="002" x="658" y="418" curvePoint="false"/>
-<arcpath id="003" x="672" y="282" curvePoint="false"/>
-<arcpath id="004" x="616" y="241" curvePoint="false"/>
+<arcpath id="000" x="606" y="323" curvePoint="false"/>
+<arcpath id="001" x="674" y="402" curvePoint="false"/>
+<arcpath id="002" x="825" y="405" curvePoint="false"/>
+<arcpath id="003" x="839" y="269" curvePoint="false"/>
+<arcpath id="004" x="781" y="227" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="CPU_buffer to T2" source="CPU_buffer1" target="T2">
@@ -803,8 +895,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="446" y="327" curvePoint="false"/>
-<arcpath id="001" x="516" y="331" curvePoint="false"/>
+<arcpath id="000" x="611" y="313" curvePoint="false"/>
+<arcpath id="001" x="681" y="317" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="CPU_ON_2 to Power_down_threshold_2" source="CPU_ON_2" target="Power_down_threshold_2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="595" y="648" curvePoint="false"/>
+<arcpath id="001" x="711" y="707" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_ON_2 to T12" source="CPU_ON_2" target="T12">
@@ -816,9 +921,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="538" y="540" curvePoint="false"/>
-<arcpath id="001" x="492" y="565" curvePoint="false"/>
-<arcpath id="002" x="406" y="553" curvePoint="false"/>
+<arcpath id="000" x="568" y="648" curvePoint="false"/>
+<arcpath id="001" x="524" y="672" curvePoint="false"/>
+<arcpath id="002" x="436" y="662" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_ON_2 to T8" source="CPU_ON_2" target="T8">
@@ -830,9 +935,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="540" y="544" curvePoint="false"/>
-<arcpath id="001" x="508" y="580" curvePoint="false"/>
-<arcpath id="002" x="537" y="639" curvePoint="false"/>
+<arcpath id="000" x="571" y="652" curvePoint="false"/>
+<arcpath id="001" x="540" y="687" curvePoint="false"/>
+<arcpath id="002" x="567" y="747" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_ON to Power_down_threshold" source="CPU_ON" target="Power_down_threshold">
@@ -844,8 +949,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="490" y="209" curvePoint="false"/>
-<arcpath id="001" x="606" y="237" curvePoint="false"/>
+<arcpath id="000" x="656" y="195" curvePoint="false"/>
+<arcpath id="001" x="771" y="222" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_ON to T2" source="CPU_ON" target="T2">
@@ -857,9 +962,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="476" y="220" curvePoint="false"/>
-<arcpath id="001" x="478" y="298" curvePoint="false"/>
-<arcpath id="002" x="516" y="321" curvePoint="false"/>
+<arcpath id="000" x="642" y="206" curvePoint="false"/>
+<arcpath id="001" x="645" y="285" curvePoint="false"/>
+<arcpath id="002" x="682" y="307" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="CPU_ON to T5" source="CPU_ON" target="T5">
@@ -871,9 +976,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="466" y="217" curvePoint="false"/>
-<arcpath id="001" x="432" y="252" curvePoint="false"/>
-<arcpath id="002" x="360" y="226" curvePoint="false"/>
+<arcpath id="000" x="631" y="203" curvePoint="false"/>
+<arcpath id="001" x="599" y="239" curvePoint="false"/>
+<arcpath id="002" x="361" y="212" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Idle_2 to T8" source="Idle_2" target="T8">
@@ -885,9 +990,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="599" y="749" curvePoint="false"/>
-<arcpath id="001" x="568" y="729" curvePoint="false"/>
-<arcpath id="002" x="536" y="669" curvePoint="false"/>
+<arcpath id="000" x="629" y="858" curvePoint="false"/>
+<arcpath id="001" x="600" y="836" curvePoint="false"/>
+<arcpath id="002" x="567" y="777" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Idle to T2" source="Idle" target="T2">
@@ -899,8 +1004,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="569" y="362" curvePoint="false"/>
-<arcpath id="001" x="526" y="331" curvePoint="false"/>
+<arcpath id="000" x="734" y="348" curvePoint="false"/>
+<arcpath id="001" x="691" y="317" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P0 to Arrival_rate" source="P0" target="Arrival_rate">
@@ -912,8 +1017,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="130" y="326" curvePoint="false"/>
-<arcpath id="001" x="200" y="327" curvePoint="false"/>
+<arcpath id="000" x="131" y="312" curvePoint="false"/>
+<arcpath id="001" x="201" y="312" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P12 to Power_up_delay_2" source="Power_up_2" target="Power_up_delay_2">
@@ -925,8 +1030,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="267" y="463" curvePoint="false"/>
-<arcpath id="001" x="396" y="484" curvePoint="false"/>
+<arcpath id="000" x="296" y="569" curvePoint="false"/>
+<arcpath id="001" x="427" y="592" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P13 to Power_up_delay_2" source="P13" target="Power_up_delay_2">
@@ -938,8 +1043,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="308" y="555" curvePoint="false"/>
-<arcpath id="001" x="396" y="494" curvePoint="false"/>
+<arcpath id="000" x="339" y="663" curvePoint="false"/>
+<arcpath id="001" x="426" y="602" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P13 to T12" source="P13" target="T12">
@@ -951,8 +1056,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="310" y="561" curvePoint="false"/>
-<arcpath id="001" x="396" y="549" curvePoint="false"/>
+<arcpath id="000" x="341" y="669" curvePoint="false"/>
+<arcpath id="001" x="426" y="657" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P13 to T13" source="P13" target="T13">
@@ -964,8 +1069,61 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="281" y="562" curvePoint="false"/>
-<arcpath id="001" x="226" y="559" curvePoint="false"/>
+<arcpath id="000" x="312" y="670" curvePoint="false"/>
+<arcpath id="001" x="257" y="667" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P16 to T14" source="P16" target="T14">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="447" y="326" curvePoint="false"/>
+<arcpath id="001" x="447" y="397" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P16 to T15" source="P16" target="T15">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="461" y="311" curvePoint="false"/>
+<arcpath id="001" x="517" y="307" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P17 to T14" source="P17" target="T14">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="492" y="391" curvePoint="false"/>
+<arcpath id="001" x="462" y="401" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P17 to T15" source="P17" target="T15">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="498" y="374" curvePoint="false"/>
+<arcpath id="001" x="478" y="343" curvePoint="false"/>
+<arcpath id="002" x="516" y="317" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P1 to T1" source="P1" target="T1">
@@ -977,8 +1135,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="266" y="325" curvePoint="false"/>
-<arcpath id="001" x="336" y="321" curvePoint="false"/>
+<arcpath id="000" x="266" y="311" curvePoint="false"/>
+<arcpath id="001" x="337" y="307" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P6 to Power_up_delay" source="P6" target="Power_up_delay">
@@ -990,8 +1148,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="319" y="223" curvePoint="false"/>
-<arcpath id="001" x="366" y="151" curvePoint="false"/>
+<arcpath id="000" x="320" y="209" curvePoint="false"/>
+<arcpath id="001" x="366" y="137" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P6 to T5" source="P6" target="T5">
@@ -1003,8 +1161,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="325" y="230" curvePoint="false"/>
-<arcpath id="001" x="350" y="221" curvePoint="false"/>
+<arcpath id="000" x="326" y="216" curvePoint="false"/>
+<arcpath id="001" x="351" y="207" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="P6 to T6" source="P6" target="T6">
@@ -1016,9 +1174,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="302" y="223" curvePoint="false"/>
-<arcpath id="001" x="282" y="192" curvePoint="false"/>
-<arcpath id="002" x="241" y="201" curvePoint="false"/>
+<arcpath id="000" x="303" y="209" curvePoint="false"/>
+<arcpath id="001" x="284" y="179" curvePoint="false"/>
+<arcpath id="002" x="242" y="187" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Power_down_threshold_2 to Stand_by_2" source="Power_down_threshold_2" target="Stand_by_2">
@@ -1030,11 +1188,11 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="690" y="593" curvePoint="false"/>
-<arcpath id="001" x="732" y="595" curvePoint="false"/>
-<arcpath id="002" x="732" y="805" curvePoint="false"/>
-<arcpath id="003" x="132" y="805" curvePoint="false"/>
-<arcpath id="004" x="131" y="608" curvePoint="false"/>
+<arcpath id="000" x="721" y="702" curvePoint="false"/>
+<arcpath id="001" x="764" y="702" curvePoint="false"/>
+<arcpath id="002" x="764" y="897" curvePoint="false"/>
+<arcpath id="003" x="164" y="897" curvePoint="false"/>
+<arcpath id="004" x="162" y="716" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Power_down_threshold to Stand_by" source="Power_down_threshold" target="Stand_by">
@@ -1046,11 +1204,11 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="616" y="231" curvePoint="false"/>
-<arcpath id="001" x="658" y="238" curvePoint="false"/>
-<arcpath id="002" x="658" y="72" curvePoint="false"/>
-<arcpath id="003" x="192" y="72" curvePoint="false"/>
-<arcpath id="004" x="191" y="146" curvePoint="false"/>
+<arcpath id="000" x="782" y="217" curvePoint="false"/>
+<arcpath id="001" x="825" y="225" curvePoint="false"/>
+<arcpath id="002" x="825" y="59" curvePoint="false"/>
+<arcpath id="003" x="194" y="59" curvePoint="false"/>
+<arcpath id="004" x="192" y="132" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Power_up_delay_2 to CPU_ON_2" source="Power_up_delay_2" target="CPU_ON_2">
@@ -1062,8 +1220,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="406" y="489" curvePoint="false"/>
-<arcpath id="001" x="537" y="529" curvePoint="false"/>
+<arcpath id="000" x="436" y="597" curvePoint="false"/>
+<arcpath id="001" x="567" y="637" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Power_up_delay to CPU_ON" source="Power_up_delay" target="CPU_ON">
@@ -1075,8 +1233,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="376" y="146" curvePoint="false"/>
-<arcpath id="001" x="463" y="199" curvePoint="false"/>
+<arcpath id="000" x="376" y="132" curvePoint="false"/>
+<arcpath id="001" x="627" y="188" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Power_up to Power_up_delay" source="Power_up" target="Power_up_delay">
@@ -1088,8 +1246,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="298" y="122" curvePoint="false"/>
-<arcpath id="001" x="366" y="141" curvePoint="false"/>
+<arcpath id="000" x="296" y="106" curvePoint="false"/>
+<arcpath id="001" x="367" y="127" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Service_rate_2 to Idle_2" source="Service_rate_2" target="Idle_2">
@@ -1101,8 +1259,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="666" y="714" curvePoint="false"/>
-<arcpath id="001" x="622" y="749" curvePoint="false"/>
+<arcpath id="000" x="696" y="822" curvePoint="false"/>
+<arcpath id="001" x="653" y="857" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Service_Rate to Idle" source="Service_Rate" target="Idle">
@@ -1114,8 +1272,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="636" y="331" curvePoint="false"/>
-<arcpath id="001" x="593" y="362" curvePoint="false"/>
+<arcpath id="000" x="801" y="317" curvePoint="false"/>
+<arcpath id="001" x="759" y="348" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Stand_by_2 to T13" source="Stand_by_2" target="T13">
@@ -1127,8 +1285,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="145" y="589" curvePoint="false"/>
-<arcpath id="001" x="216" y="564" curvePoint="false"/>
+<arcpath id="000" x="176" y="697" curvePoint="false"/>
+<arcpath id="001" x="246" y="672" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="Stand_by to T6" source="Stand_by" target="T6">
@@ -1140,8 +1298,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="200" y="172" curvePoint="false"/>
-<arcpath id="001" x="230" y="207" curvePoint="false"/>
+<arcpath id="000" x="201" y="158" curvePoint="false"/>
+<arcpath id="001" x="231" y="192" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T12 to CPU_ON_2" source="T12" target="CPU_ON_2">
@@ -1153,9 +1311,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="406" y="543" curvePoint="false"/>
-<arcpath id="001" x="478" y="535" curvePoint="false"/>
-<arcpath id="002" x="536" y="533" curvePoint="false"/>
+<arcpath id="000" x="437" y="652" curvePoint="false"/>
+<arcpath id="001" x="510" y="642" curvePoint="false"/>
+<arcpath id="002" x="567" y="642" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T13 to P12" source="T13" target="Power_up_2">
@@ -1167,8 +1325,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="221" y="549" curvePoint="false"/>
-<arcpath id="001" x="247" y="475" curvePoint="false"/>
+<arcpath id="000" x="252" y="657" curvePoint="false"/>
+<arcpath id="001" x="277" y="581" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T13 to P13" source="T13" target="P13">
@@ -1180,12 +1338,12 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="226" y="569" curvePoint="false"/>
-<arcpath id="001" x="282" y="610" curvePoint="false"/>
-<arcpath id="002" x="291" y="578" curvePoint="false"/>
+<arcpath id="000" x="256" y="677" curvePoint="false"/>
+<arcpath id="001" x="314" y="717" curvePoint="false"/>
+<arcpath id="002" x="322" y="686" curvePoint="false"/>
 <type value="normal"/>
 </arc>
-<arc id="T1 to CPU_buffer" source="T1" target="CPU_buffer1">
+<arc id="T14 to CPU_buffer2" source="T14" target="CPU_buffer2">
 <graphics/>
 <inscription>
 <value>Default,1</value>
@@ -1194,11 +1352,11 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="346" y="321" curvePoint="false"/>
-<arcpath id="001" x="416" y="325" curvePoint="false"/>
+<arcpath id="000" x="442" y="406" curvePoint="false"/>
+<arcpath id="001" x="459" y="507" curvePoint="false"/>
 <type value="normal"/>
 </arc>
-<arc id="T1 to CPU_buffer2" source="T1" target="CPU_buffer2">
+<arc id="T14 to P17" source="T14" target="P17">
 <graphics/>
 <inscription>
 <value>Default,1</value>
@@ -1207,8 +1365,36 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="346" y="331" curvePoint="false"/>
-<arcpath id="001" x="420" y="405" curvePoint="false"/>
+<arcpath id="000" x="452" y="407" curvePoint="false"/>
+<arcpath id="001" x="493" y="448" curvePoint="false"/>
+<arcpath id="002" x="503" y="401" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T15 to CPU_buffer1" source="T15" target="CPU_buffer1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="527" y="307" curvePoint="false"/>
+<arcpath id="001" x="582" y="310" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T15 to P17" source="T15" target="P17">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="526" y="317" curvePoint="false"/>
+<arcpath id="001" x="568" y="373" curvePoint="false"/>
+<arcpath id="002" x="521" y="383" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T1 to P0" source="T1" target="P0">
@@ -1220,9 +1406,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="336" y="331" curvePoint="false"/>
-<arcpath id="001" x="222" y="402" curvePoint="false"/>
-<arcpath id="002" x="128" y="335" curvePoint="false"/>
+<arcpath id="000" x="336" y="317" curvePoint="false"/>
+<arcpath id="001" x="224" y="389" curvePoint="false"/>
+<arcpath id="002" x="129" y="320" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T1 to P13" source="T1" target="P13">
@@ -1234,8 +1420,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="341" y="341" curvePoint="false"/>
-<arcpath id="001" x="299" y="549" curvePoint="false"/>
+<arcpath id="000" x="342" y="327" curvePoint="false"/>
+<arcpath id="001" x="327" y="657" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to P16" source="T1" target="P16">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="346" y="312" curvePoint="false"/>
+<arcpath id="001" x="432" y="312" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T1 to P6" source="T1" target="P6">
@@ -1247,8 +1446,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="341" y="311" curvePoint="false"/>
-<arcpath id="001" x="317" y="249" curvePoint="false"/>
+<arcpath id="000" x="342" y="297" curvePoint="false"/>
+<arcpath id="001" x="317" y="235" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T2 to Active" source="T2" target="Active">
@@ -1260,8 +1459,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="526" y="321" curvePoint="false"/>
-<arcpath id="001" x="567" y="302" curvePoint="false"/>
+<arcpath id="000" x="692" y="307" curvePoint="false"/>
+<arcpath id="001" x="733" y="288" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T2 to CPU_ON" source="T2" target="CPU_ON">
@@ -1273,9 +1472,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="521" y="311" curvePoint="false"/>
-<arcpath id="001" x="538" y="268" curvePoint="false"/>
-<arcpath id="002" x="487" y="217" curvePoint="false"/>
+<arcpath id="000" x="687" y="297" curvePoint="false"/>
+<arcpath id="001" x="705" y="255" curvePoint="false"/>
+<arcpath id="002" x="652" y="202" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T5 to CPU_ON" source="T5" target="CPU_ON">
@@ -1287,9 +1486,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="361" y="216" curvePoint="false"/>
-<arcpath id="001" x="418" y="192" curvePoint="false"/>
-<arcpath id="002" x="461" y="202" curvePoint="false"/>
+<arcpath id="000" x="362" y="202" curvePoint="false"/>
+<arcpath id="001" x="585" y="179" curvePoint="false"/>
+<arcpath id="002" x="627" y="188" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T6 to P6" source="T6" target="P6">
@@ -1301,9 +1500,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="240" y="211" curvePoint="false"/>
-<arcpath id="001" x="268" y="252" curvePoint="false"/>
-<arcpath id="002" x="297" y="241" curvePoint="false"/>
+<arcpath id="000" x="241" y="197" curvePoint="false"/>
+<arcpath id="001" x="270" y="239" curvePoint="false"/>
+<arcpath id="002" x="298" y="227" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T6 to Power_up" source="T6" target="Power_up">
@@ -1315,8 +1514,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="237" y="191" curvePoint="false"/>
-<arcpath id="001" x="275" y="131" curvePoint="false"/>
+<arcpath id="000" x="237" y="177" curvePoint="false"/>
+<arcpath id="001" x="274" y="114" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T8 to Active_2" source="T8" target="Active_2">
@@ -1328,9 +1527,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="540" y="659" curvePoint="false"/>
-<arcpath id="001" x="568" y="640" curvePoint="false"/>
-<arcpath id="002" x="641" y="663" curvePoint="false"/>
+<arcpath id="000" x="571" y="767" curvePoint="false"/>
+<arcpath id="001" x="600" y="747" curvePoint="false"/>
+<arcpath id="002" x="672" y="772" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T8 to CPU_ON_2" source="T8" target="CPU_ON_2">
@@ -1342,9 +1541,9 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="541" y="649" curvePoint="false"/>
-<arcpath id="001" x="598" y="595" curvePoint="false"/>
-<arcpath id="002" x="560" y="545" curvePoint="false"/>
+<arcpath id="000" x="572" y="757" curvePoint="false"/>
+<arcpath id="001" x="630" y="702" curvePoint="false"/>
+<arcpath id="002" x="591" y="653" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
